@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<center>
+<div id="logo"> 
+	<img src="logo_transparent.png" height=300 width=400> 
+</div> 
+</center>
+<style>
+	/*add full-width input fields*/
+	
+	input[type=text],
+	input[type=password] {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 2px solid #ccc;
+		box-sizing: border-box;
+	}
+	/* set a style for all buttons*/
+	
+	button {
+		background-color: Green;
+		color: white;
+		padding: 15px 20px;
+		margin: 8px 0;
+		cursor: pointer;
+		width: 100%;
+	}
+	/*set styles for the cancel button*/
+	
+	.cancelbtn {
+		padding: 15px 20px;
+		background-color: #FF2E00;
+	}
+	/*float cancel and signup buttons and add an equal width*/
+	
+	.cancelbtn,
+	.signupbtn {
+		float: left;
+		width: 50%;
+	}
+	/*add padding to container elements*/
+	
+	.container {
+		padding: 16px;
+	}
+	/*clear floats*/
+	
+	.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	/*styles for cancel button and signup button 
+	on extra small screens*/
+	
+	@media screen and (max-width: 300px) {
+		.cancelbtn,
+		.signupbtn {
+			width: 100%;
+		}
+	}
+</style>
+
+<body>
+<center>
+	<h1>Signup To Create An Account On AryanStudies</h1>
+	</center>
+	<!--Step 1:Adding HTML-->
+	<form action="/action_page.php" style="border:1px solid #ccc">
+		<div class="container">
+			<label><b>Email</b></label>
+			<input type="text" placeholder="Enter Email" name="email" required>
+
+			<label><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required>
+
+			<label><b>Repeat Password</b></label>
+			<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			<input type="checkbox" checked="checked"> Remember me
+			<p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p>
+
+			<div class="clearfix">
+				<a href="./nakli.html"><button type="button" class="cancelbtn">Cancel</button>
+				<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 205px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+}
+</style>
+
+<a href="file:///C:/Users/dell/Music/action_page.php.html" class="button">Sign Up</a>
+			</div>
+		</div>
+	</form>
+
+</body>
+
+</html>
