@@ -1,0 +1,733 @@
+<html>
+<head>
+<link rel="icon" href="favicon.png"/>
+</head>
+
+
+
+
+<header>
+<center>
+<div id="logo"> 
+	<img src="logo_1.png" height=300 width=400> 
+</div> 
+</center>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+</style>
+<body>
+
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account on AryanStudies.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Conditions</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				<style>
+				
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 205px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+}
+</style>
+
+<a href="./action_page.php.html" class="button">Sign Up</a>
+			</div>
+		</div>
+	</form>
+
+</body>
+
+</html>
+
+        <style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 169px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 169px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+      </div>
+    </div>
+  </form>
+</div>
+<style>
+#close{
+    float:right;
+    display:block;
+    margin-right:0px;
+    clear:left;
+}
+</style>
+<div class="previouslink">
+<a href="./dew.html"><button type="button" id="close" onclick="return closewindow();">Sign Up</button>
+</div>
+
+<div class="previouslink">
+<a href="./google.html"><button type="button" id="close" onclick="return closewindow();">Login</button>
+</div>
+<div class="previouslink">
+<a href="./policy.html"><button type="button" id="close" onclick="return closewindow();">Privacy Policy</button>
+</div>
+
+<div class="previouslink">
+<a href="./cop.html"><button type="button" id="close" onclick="return closewindow();">Terms & Conditions</button>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<title>CLASS 9 FREE NCERT E-BOOKS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="sign.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<style>
+/* Large rounded green border */
+hr.new5 {
+  border: 1px solid green;
+  border-radius: 5px;
+}
+</style>
+<hr class="new5">
+
+<img src="./book.webp" height="460" width="990">
+
+
+<button onclick="window.location.href='./home.html';">
+      Home
+    </button>
+
+
+<button onclick="window.location.href='./under.html';">
+      Syllabus
+    </button>
+
+<button onclick="window.location.href='./row.html';">
+     Contact
+    </button>
+
+<button onclick="window.location.href='./clo.html';">
+     Close
+    </button>
+
+
+
+
+
+
+
+   
+<body background="hell.jpg">
+<ul>
+<h2><pre><li><p style="color:blue;">Here is all that you need to learn for your EXAMS so for whom are you waiting for ?</p></li><br><li><p style="color:blue;">Just download the PDF's of CLASS 9 ENGLISH all chapters</p></li><br><li><p style="color:blue;">Get access to our premium features too...</p></li></h2></pre>
+</ul>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 9px solid #F6F61A;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+<ul><h1 style="color:red">CLASS 9 NCERT ENGLISH BOOKS DOWNLOAD LINKS</h1></ul>
+<center>
+<table>
+  <tr>
+    <th><center><p><u><font face = "courier" size="7" color="#1007CA">CHAPTERS</font></u></p></center></th>
+	
+    </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./child.pdf" ><h1>The Lost Child</h1></a></p><img src="child.jpg" height="230" width="290"></center></td>
+   
+   
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./Toto.pdf" ><h1>The Adventures Of Toto</h1></a></p><img src="toto.jpg" height="230" width="290"></center></td>
+    
+    
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./iswaraan.pdf" ><h1>Iswaran The Story Teller</h1></a></p><img src="iswaran.png" height="230" width="290"></center></td>
+   
+    
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./fools.pdf" ><h1>In The Kingdom Of Fools</h1></a></p><img src="king.png" height="230" width="290"></center></td>
+    
+  
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./prince.pdf" ><h1>The Happy Prince</h1></a></p><img src="prince.jpg"></center></td>
+    
+  
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./storm.pdf" ><h1>Weathering In The Storm Of Ersana</h1></p><img src="ersama.png" height="230" width="290"></center></td>
+    
+   
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./leaf.pdf" >The Last Leaf</h1></p><img src="leaf.jpg" height="230" width="290"></center></td>
+    
+   
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./house.pdf" ><h1>A House Is Not A Home</h1></p><img src="home.jpg" height="230" width="290"> </center></td>
+    
+
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./accidental.pdf" ><h1>The Accidental Tourist</h1></p><img src="acci.png" height="230" width="290"></center></td>
+    
+   
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./beggar.pdf" ><h1>The Beggar</h1></p><img src="beggar.png" height="230" width="290"></center></td>
+    
+ 
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./fun.pdf" ><h1>The Fun They Had</h1></p><img src="fun.jpg" height="230" width="290"></center></td>
+    
+   
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./road.pdf" ><h1>The Road Not Taken</h1></p><img src="road.jpg" height="230" width="290"></center></td>
+    
+   
+  </tr>
+   <tr>
+    <td><center><p style="font-size:30px;"><a href="./music.pdf" ><h1>The Sound Of Music & Wind</h1> </p><img src="sound.jpg" height="230" width="290"><img src="wind.jpg" height="230" width="290"></center></td>
+    
+   
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./little.pdf" ><h1>The Little Girl & Rain On The Roof </h1></p><img src="girl.jpg" height="230" width="290"><img src="roof.jpg" height="230" width="290"></center></td>
+    
+  
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./mind.pdf" ><h1>A Truly Beautiful Mind & The Lake Of Innisfree</h1></p><img src="mind.jpg" height="230" width="290"><img src="lake.jpg" height="230" width="290"></center></td>
+    
+  
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./mirror.pdf" ><h1>The Snake And The Mirror & Legend Of The Northland</h1></p><img src="mirror.jpg" height="230" width="290"><img src="legend.jpg" height="230" width="290"></center></td>
+    
+  
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./men.pdf" ><h1>My Childhood & No Men Are Foreign</h1></p><img src="hood.jpg" height="230" width="290"><img src="foreign.png" height="230" width="290"></center></td>
+    
+   
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./packing.pdf" ><h1>Packing & The Duck And The Kangaroo</h1></p><img src="packing.jpg" height="230" width="290"><img src="duck.jpg" height="230" width="290"></center></td>
+    
+   
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./top.pdf" ><h1>Reach For The Top & On Killing A Tree</h1></p><img src="reach.png" height="230" width="290"><img src="killing.jpg" height="230" width="290"></center></td>
+    
+    
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./love.pdf" ><h1>The Bond Of Love & The Snake Trying</h1></p><img src="love.jpg" height="230" width="290"><img src="snake.jpg" height="230" width="290"></center></td>
+    
+ 
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./slumber.pdf" ><h1>Kathmandu & A Slumber Did My Spirit Seal</h1></p><img src="mandu.jpg" height="230" width="290"><img src="slumber.jpg" height="230" width="290"></center></td>
+    
+   
+  </tr>
+  <tr>
+    <td><center><p style="font-size:30px;"><a href="./if.pdf" ><h1>If I Were You</h1></p><img src="were.jpg" height="230" width="290"></center></td>
+    
+    
+  
+  
+    
+    
+  </tr>
+  <tr>
+</table>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+<center>
+<p><b><font face = "courier" size = "10" color = "#DF0000">
+            ONLINE TEST SERIES
+         </b></font>
+      
+</center>
+
+<button class="block"onclick="window.location.href='./onlinetest.html'"> All In One Test</button>
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+<center>
+
+</center>
+
+<button class="block"onclick="window.location.href='./online1.html'"> POEM 1- THE ROAD NOT TAKEN ONLINE TEST</button>
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+<center>
+
+</center>
+
+<button class="block"onclick="window.location.href='./lake.html'"> POEM 2- THE LAKE ISLE OF INNISFREE</button>
+
+
+<button class="block"onclick="window.location.href='./duckk.html'"> POEM 3- THE DUCK AND THE KANGAROO</button>
+
+
+<button class="block"onclick="window.location.href='./beehiveeCh1.html'"> CHAPTER 1- THE FUN THEY HAD {1}</button>
+
+
+<button class="block"onclick="window.location.href='./beehiveeeCh1.html'"> CHAPTER 1- THE FUN THEY HAD {2}</button>
+
+<div class="copyright pull-right">
+				<h2><b>Copyright © 2020|AryanStudies|All rights reserved.</b></h2>			</div>
+			</div>			</div>
+					</footer>
+				</div>
+	</div>	
+	
+	
+</header>
+</body>
+</html>
